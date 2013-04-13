@@ -1,6 +1,6 @@
 ** php-file-upload-to-rackspace-cdn **
 =============
-PHP scripts form a Rackspace Cloud PHP File Uploader.
+PHP scripts are a Rackspace Cloud File Uploader.
 
 To use these files you will need ...
 
@@ -8,14 +8,14 @@ To use these files you will need ...
 2. Rackspace API Key for your Cloud Server
 3. A "container name" where files will be stored on your Cloud server.
 
-These files include a library (.lib) provide by Rackspace.
-Always use the latest library whcih can be found here: GitHub rackspace  / php-opencloud 
+These files include a library (/lib) provided by Rackspace.
+Always use the latest library which can be found here: GitHub rackspace  / php-opencloud 
 
 See https://github.com/rackspace/php-opencloud
 
-There are other action that this script can be modified to provide (see comments at end of uploader.php)
+There are other actions that this script can be modified to provide (see comments at end of uploader.php)
 but this specific function (uloading a single file to a Rackspace Cloud Server with PHP) seems
-to be the most popular request and I could not find one any where.
+to be the most popular request and I could not find one anywhere.
 
 Enjoy!
 
