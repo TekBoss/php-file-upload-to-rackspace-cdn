@@ -57,7 +57,7 @@ require_once('_inc_cdn_ini.php'); // Contains our secret codes. Put someplace sa
 # NOTE: You have the option of replacing the include fiel above with form inputs currently commented out.
 #	$username       = isset($_POST['username'])        ? $_POST['username']        : '' ;
 #	$key            = isset($_POST['key'])             ? $_POST['key']             : '' ;
-	$container_name = isset($_POST['$container_name']) ? $_POST['$container_name'] : '' ;
+	$container_name = isset($_POST['container_name'])  ? $_POST['container_name']  : '' ;
 //	echo "Username:  $username<br/>";
 //	echo "Username:  $key<br/>";
 	echo "Container: $container_name<br/><br>";
